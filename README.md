@@ -74,13 +74,3 @@ Each power-up is implemented as a custom C++ class.
 - `Tutorial`, `Main Menu`, and `Credits` sections included.
 - **Victory** and **Defeat** screens provide feedback at the end of each session.
 
----
-
-## 💻 Built With
-
-- **Unreal Engine**
-- **C++**
-  - Custom Character and Actor Classes
-  - User Interface via UMG
-  - Gameplay Programming & Event Systems
-
