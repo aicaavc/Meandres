@@ -1,18 +1,18 @@
-# 🌀 Meandres
+# Meandres
 
 **Meandres** is a first-person maze game developed entirely in **C++ using Unreal Engine**. Dive into a complex labyrinth filled with traps, collectibles, and time-based challenges. Your reflexes, decisions, and resource management skills will determine your survival.
 
 ---
 
-## 🎮 Gameplay Overview
+## Gameplay Overview
 
 Navigate through a mysterious maze, collect coins, dodge traps, and find power-ups, all while racing against the clock. Each decision matters as you manage stamina and health to reach the exit before time runs out.
 
 ---
 
-## 🧠 Features
+## Features
 
-### 🕹️ Movement & Core Systems
+### Movement & Core Systems
 Implemented in the `PlayerCharacter` C++ class:
 - Jump, run, and move in all directions.
 - **Stamina System**: Pressing **Left Shift** doubles your speed at the cost of stamina.
@@ -26,7 +26,7 @@ Implemented in the `PlayerCharacter` C++ class:
 
 ---
 
-### 💰 Coin System
+### Coin System
 - `Coin`: +1 point.
 - `DoubleCoin`: +2 points.
 - Coins are created as C++ Actors and tracked on the UI.
@@ -34,7 +34,7 @@ Implemented in the `PlayerCharacter` C++ class:
 
 ---
 
-### ⚠️ Traps & Hazards
+### Traps & Hazards
 
 | Trap          | Effect                                            | Notes                                             |
 |---------------|---------------------------------------------------|---------------------------------------------------|
@@ -46,7 +46,7 @@ Implemented in the `PlayerCharacter` C++ class:
 
 ---
 
-### 💡 Power-Ups
+### Power-Ups
 
 | Power-Up         | Effect                         |
 |------------------|--------------------------------|
@@ -59,7 +59,7 @@ Each power-up is implemented as a custom C++ class.
 
 ---
 
-### 🕒 Time System
+### Time System
 - Game starts with **120 seconds**.
 - Time displayed on the UI.
 - If the timer reaches 0, the player loses.
@@ -67,7 +67,7 @@ Each power-up is implemented as a custom C++ class.
 
 ---
 
-### 🛠 Interactables
+### Interactables
 
 - `MovingPlatform`: Dynamic platforms with variable max/min heights.
 - `SlidingDoors`: Opens based on player interactions.
